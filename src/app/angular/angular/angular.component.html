@@ -1,0 +1,32 @@
+<div style="display: flex;">
+    <div class="sidebar">
+      <label class="l1"><span>Getting Started</span></label>
+      <a [routerLink]="['./introduction']"><span>Introduction</span></a>
+      <a [routerLink]="['./download']"><span>Download</span></a>
+      <!-- <a><span>Installation</span></a> -->
+
+      <label class="l1"><span>Angular</span></label>
+      <a [routerLink]="['./components']"><span>Components</span></a>
+      <a [routerLink]="['./modules']"><span>Modules</span></a>
+      <a [routerLink]="['./databinding']"><span>Data Binding</span></a>
+      <a [routerLink]="['./eventbinding']"><span> Event Binding</span></a>
+      <a [routerLink]="['./property']"><span> Property Binding</span></a>
+      <a [routerLink]="['./ngfor']"><span> NgFor</span></a>
+      <a [routerLink]="['./ngif']"><span> NgIf</span></a>
+      <a [routerLink]="['./ngswitch']"><span> NgSwitch</span></a>
+      <a [routerLink]="['./templates']"><span>Templates</span></a>
+      <a [routerLink]="['./directive']"><span>Directives</span></a>
+      <a [routerLink]="['./pipes']"><span>Pipes</span></a>
+      <a [routerLink]="['./routing']"><span>Routing</span></a>
+      <a [routerLink]="['./service']"><span>Services</span></a>
+      <a [routerLink]="['./httpclient']"><span>Http Client</span></a>
+      <a [routerLink]="['./cliprompts']"><span>CLI Prompts</span></a>
+      <a [routerLink]="['./forms']"><span>Forms</span></a>
+      <a [routerLink]="['./animation']"><span>Animations</span></a>
+      <a [routerLink]="['./material']"><span>Materials</span></a>
+    </div>
+  <div>
+
+    <router-outlet></router-outlet>
+  </div>
+</div>

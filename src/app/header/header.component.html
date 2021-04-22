@@ -1,0 +1,24 @@
+<div class="main">
+  <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark " [containerInside]="false">
+    <mdb-navbar-brand>
+      <!-- <a class="navbar-brand" href="#"><h5 style="font-family: Arial,Bold;">ANGULAR TUTORIAL</h5></a> -->
+      <img src="./assets/fina_lllllllllllllll.png" style="height: 65px; padding-bottom: 1px; padding-left: 2px; padding-top: 1px;">
+    </mdb-navbar-brand>
+    <links>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item ">
+
+          <a class="nav-link " style="color:black;font-family: Arial,Bold; padding-bottom: 5px;"
+            [routerLink]="['']"><h2>Home</h2><span class="sr-only">(current)</span></a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" style="color:black;font-family: Arial,Bold; padding-bottom: 1px;"><h5>Service</h5></a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" style="color:black;font-family: Arial,Bold; padding-bottom: 3px;" [routerLink]="['./aboutus']"><h2>About us</h2></a>
+        </li>
+      </ul>  
+    </links>
+  </mdb-navbar>
+</div>
